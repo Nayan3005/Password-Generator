@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="head">Generate a 
+        <br><span class="head1">random password</span></h1>
+        <p class="text">Never use an insecure password.</p>
+        <div class="generated">
+            <div class="generated-1">
+                <p class="text1">Set Password Length - </p>
+                <input id="input" type="number" placeholder="ex:- 7-15">
+            </div>
+        </div>
+        <button type="button" class="generate" onclick="passLimit()">Generate Passwords</button>
+        <div class="line"></div>
+        <div class="pass">
+            <div id="pass-1"></div>
+            <div id="pass-2"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
